@@ -199,13 +199,17 @@ h1{
     font-family: "Alike", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.3vw;
+    font-size: 1.5vw;
 }
 .socialc{
     display: flex;
     gap:15%;
     justify-content: center;
 }
+h2{
+    font-size: 3vw;
+}
+
 #backToTop {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed position */
@@ -292,7 +296,7 @@ h1{
         font-size: 7vw;
     }
 }
-@media (max-width:768px){
+@media (max-width: 768px) {
     .navbar {
         flex-direction: column;
     }
@@ -355,7 +359,7 @@ h1{
         justify-content: center;
         height: 58vw;
         align-items: center;
-        font-size: 1.1em;
+        font-size: 2vw;
         padding: 10% 10% 10% 5%;
         text-align: justify;
         
@@ -370,7 +374,9 @@ h1{
         align-items: center;
         height: 5vh;
     }
+   
 }
+
 @media (max-width:426px){
     .starting_c{
         display: grid;
@@ -474,7 +480,7 @@ h1{
         
     }
     .image{
-        width: 28%;
+        width:14vw;
         border-radius: 50%;
     }
     h1{
@@ -488,6 +494,7 @@ h1{
     }
     .temp{
         grid-column: span 2;
+        gap: 4%;
     }
     .map{
         width: 100vw;
@@ -496,6 +503,9 @@ h1{
 {
     transform: scale(1.2);
 }
+
+    
+
     
 }
 @media (max-width:376px){
@@ -537,7 +547,7 @@ h1{
     }
 }
 
-@media (max-width:321px){
+@media screen and (max-width:321px){
     .main_conatiner{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -576,7 +586,3 @@ h1{
         transform: scale(1.2);
     }
 }
-
-
-
-
