@@ -238,23 +238,7 @@ h1{
 } */
 
 /* Responsive Design */
-@media (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-    }
 
-    .nav-links {
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-    }
-
-    .nav-links a {
-        width: 100%;
-        text-align: center;
-        padding: 10px 0;
-    }
-}
 @media (max-width:1024px){
     .main_image{
         width: 145%;
@@ -309,6 +293,21 @@ h1{
     }
 }
 @media (max-width:768px){
+    .navbar {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .nav-links a {
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
     .main_image{
         width: 145%;
     }
