@@ -134,7 +134,7 @@
    
 }
 
-@media (max-width:426px){
+@media (max-width:450px){
     .starting_c{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -227,7 +227,7 @@
         gap: 3%;
         justify-content: center;
         align-items: center;
-        height: 20vh;
+        height: 28vh;
         background-color: #D9D9D9;
         border-radius: 5%;
         text-align: center;
@@ -237,7 +237,7 @@
         
     }
     .image{
-        width:14vw;
+        height: 55%;
         border-radius: 50%;
     }
     h1{
@@ -259,6 +259,12 @@
     #dp:hover
 {
     transform: scale(1.2);
+}
+h2{
+    font-size: 5vw;
+}
+.details{
+    font-size: 3vw;
 }
 
     
