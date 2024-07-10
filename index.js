@@ -1,27 +1,23 @@
-function toggleMenu(){
-  var icon = document.getElementById("hamburger");
-  var nav = document.getElementById("nav-links");
-  
-  if (nav.style.display === 'none' ){
-    nav.style.display = 'flex';
+function toggleMenu(){  
+  if (document.getElementById("nav-links").style.display === 'none' ||document.getElementById("nav-links").style.display === '' ){
+    document.getElementById("nav-links").style.display = 'flex';
   }
   else{
-    nav.style.display = 'none';
+    document.getElementById("nav-links").style.display = 'none';
   }
 }
 function setupHamburgerMenu(){
-    var icon = document.getElementById("hamburger");
-    var nav = document.getElementById("nav-links");
+    
 
     if (window.innerWidth<=768){
         //show the hamburger icon and hide the notification bar
-        icon.style.display = 'block';
-        nav.style.display = 'none';
+        document.getElementById("hamburger").style.display = 'block';
+        document.getElementById("nav-links").style.display = 'none';
     }
     else{
         //hide the hamburger icon and show the notification bar
-        icon.style.display = 'none';
-        nav.style.display = 'flex';
+        document.getElementById("hamburger").style.display = 'none';
+        document.getElementById("nav-links").style.display = 'flex';
     }
 }
 //Running the setHamburgerMenu on page load resize
