@@ -2,7 +2,7 @@ function toggleMenu(){
   var icon = document.getElementById("hamburger");
   var nav = document.getElementById("nav-links");
   
-  if (nav.style.display === 'none' || nav.style.display === '' ){
+  if (nav.style.display === 'none' ){
     nav.style.display = 'flex';
   }
   else{
