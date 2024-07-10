@@ -126,6 +126,7 @@ h1{
 }
 .icon {
     transition: transform 0.5s;
+    cursor: pointer;
 }
 
 .icon:hover {
@@ -186,6 +187,7 @@ h1{
 }
 .icons{
     transition: transform 0.5s;
+    cursor: pointer;
 }
 .icons:hover{
     transform: scale(1.2);
@@ -210,6 +212,10 @@ h2{
     font-size: 3vw;
 }
 
+.hamburger{
+    display: none;
+}
+
 #backToTop {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed position */
@@ -228,11 +234,13 @@ h2{
 #backToTop:hover {
     background-color: #FC6736; /* Add a dark-grey background on hover */
 }
-
-
-
-
-
+footer{
+    clear: both;
+    text-align: center;
+    color: #0C2D57;
+    background-color: #EFECEC;
+    margin: 5px;
+}
 /* .socials{
     display: flex;
     flex-direction: column;
@@ -240,9 +248,3 @@ h2{
     justify-content: flex-start;
     margin: 1%;
 } */
-
-
-
-
-
-
